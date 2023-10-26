@@ -10,9 +10,7 @@ const connect = function () {
     console.log("Successfully connected to game server");
     conn.write("Name: LIB");
   });
-
-
-
+  
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
